@@ -1,25 +1,19 @@
 package baekjun_2_7;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
 
- 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
- 
-		
- 
-		
-		
+
 		int a = Integer.parseInt(br.readLine());
-	
-		for(int i=1; i>10; i++) {
-			int b = a*i;
+
+		for (int i = 1; i > 10; i++) {
+			int b = a * i;
 			System.out.println(b);
 		}
-		
-		
-		
+
 	}
 }
